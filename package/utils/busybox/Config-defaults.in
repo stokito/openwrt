@@ -348,10 +348,10 @@ config BUSYBOX_DEFAULT_FEATURE_GUNZIP_LONG_OPTIONS
 	default n
 config BUSYBOX_DEFAULT_BUNZIP2
 	bool
-	default y
+	default n
 config BUSYBOX_DEFAULT_BZCAT
 	bool
-	default y
+	default n
 config BUSYBOX_DEFAULT_UNLZMA
 	bool
 	default n
@@ -378,7 +378,7 @@ config BUSYBOX_DEFAULT_BZIP2_SMALL
 	default 0
 config BUSYBOX_DEFAULT_FEATURE_BZIP2_DECOMPRESS
 	bool
-	default y
+	default n
 config BUSYBOX_DEFAULT_CPIO
 	bool
 	default n
